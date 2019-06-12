@@ -21,7 +21,7 @@ students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 # end
 
 my_collect(languages) do |element|
-  Lang_collect << element.upcase
+  New_collect << element.upcase
 end
 
 def test_array(array)
