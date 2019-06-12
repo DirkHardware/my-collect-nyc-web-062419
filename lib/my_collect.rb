@@ -12,7 +12,7 @@ def my_collect(array)
     yield array[i]
     i += 1
   end
-  New_collect
+  Lang_collect
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
