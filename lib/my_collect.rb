@@ -22,9 +22,9 @@ end
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-# my_collect(students) do |element|
-#   New_collect << element.split(" ").first
-# end
+my_collect(students) do |element|
+  Student_collect << element.split(" ").first
+end
 
 my_collect(languages) do |element|
   Lang_collect << element.upcase
