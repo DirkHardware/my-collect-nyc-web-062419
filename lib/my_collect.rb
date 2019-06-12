@@ -1,5 +1,3 @@
-Lang_collect = []
-Student_collect = []
 New_collect = []
 
 def my_collect(array)
@@ -12,19 +10,15 @@ def my_collect(array)
     yield array[i]
     i += 1
   end
-  if array.length < 4
-    Lang_collect
-  else
-    Student_collect
-  end
+  New_collect
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-my_collect(students) do |element|
-  Student_collect << element.split(" ").first
-end
+# my_collect(students) do |element|
+#   New_collect << element.split(" ").first
+# end
 
 my_collect(languages) do |element|
   Lang_collect << element.upcase
