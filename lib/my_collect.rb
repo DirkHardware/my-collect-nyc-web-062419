@@ -26,4 +26,8 @@ my_collect(languages) do |element|
   Lang_collect << element.upcase
 end
 
+def test_array(array)
+  array == students
+end
+
 # What's probably happening with this last failure is that both the language and the student collections are getting passed to the same array
