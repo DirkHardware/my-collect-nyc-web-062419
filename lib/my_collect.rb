@@ -12,7 +12,11 @@ def my_collect(array)
     yield array[i]
     i += 1
   end
-  Lang_collect
+  if array.length < 4
+    Lang_collect
+  else
+    Student_collect
+  end
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
