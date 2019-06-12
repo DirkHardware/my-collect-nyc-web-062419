@@ -23,7 +23,7 @@ students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 # end
 
 my_collect(languages) do |element|
-  New_collect << element.upcase
+  Lang_collect << element.upcase
 end
 
 # What's probably happening with this last failure is that both the language and the student collections are getting passed to the same array
